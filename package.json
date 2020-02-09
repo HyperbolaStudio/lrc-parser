@@ -1,0 +1,28 @@
+{
+  "name": "@hypst/lrc-parser",
+  "version": "1.0.0",
+  "description": "Parse LRC files",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./",
+    "watch": "tsc -w ./",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyperbolaStudio/lrc-parser.git"
+  },
+  "keywords": [
+    "lyric"
+  ],
+  "author": "crindzebra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyperbolaStudio/lrc-parser/issues"
+  },
+  "homepage": "https://github.com/HyperbolaStudio/lrc-parser#readme",
+  "dependencies": {
+    "@hypst/time-beat-format": "0.0.2"
+  }
+}
