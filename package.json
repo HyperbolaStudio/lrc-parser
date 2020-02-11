@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/HyperbolaStudio/lrc-parser#readme",
   "dependencies": {
-    "@hypst/time-beat-format": "0.0.2"
+    "@hypst/time-beat-format": "0.0.4"
   }
 }
