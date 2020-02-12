@@ -16,7 +16,9 @@ export function parse(str:string){
             return s.trim();
         });
         lyricStrList.forEach((lyricStr,index)=>{
-            if(tagRegExp.test(lyricStr)){
+            if(lyricStr==''){
+                
+            }else if(tagRegExp.test(lyricStr)){
                 lyricStr.replace(tagRegExp,(match,d1,d2,offset)=>{
                     d2 = d2.trim();
                     if(!d1){
